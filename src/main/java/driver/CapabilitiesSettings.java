@@ -6,15 +6,18 @@ import utils.CSVReader;
 class CapabilitiesSettings {
     private static DesiredCapabilities androidCapabilities;
 
+    private static void setCapability(String param) {
+        androidCapabilities.setCapability(param, CSVReader.read(param));
+    }
+
     static DesiredCapabilities getAndroidDesiredCapabilities() {
         if (androidCapabilities == null) {
-            androidCapabilities = new DesiredCapabilities();
-        }
-        androidCapabilities.setCapability("deviceName", "02e7d80f212ff612");
-        androidCapabilities.setCapability("platformName", "Android");
-        androidCapabilities.setCapability("appPackage", "com.microsoft.office.outlook");
-        androidCapabilities.setCapability("appActivity", "com.acompli.acompli.CentralActivity");
-        androidCapabilities.setCapability("fullReset", "false");
+            androidCapabilities = new DesiredCapabilities(); }
+        CapabilitiesSettings.setCapability("deviceName");
+        CapabilitiesSettings.setCapability("platformName");
+        CapabilitiesSettings.setCapability("appPackage");
+        CapabilitiesSettings.setCapability("appActivity");
+        CapabilitiesSettings.setCapability("fullReset");
         return androidCapabilities;
     }
 }
