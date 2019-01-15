@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e9e5594-b87d-465f-9a61-3670f2e441b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/DriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/DriverSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/androidPageObjects/BaseAndroidPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/androidPageObjects/BaseAndroidPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/androidPageObjects/LoginPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/androidPageObjects/LoginPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/params.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/params.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/BaseAndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/BaseAndroidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mobile/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mobile/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/practice_Rusnak-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/driver/DriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/DriverSettings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/androidPageObjects/BaseAndroidPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/androidPageObjects/BaseAndroidPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/androidPageObjects/LoginPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/androidPageObjects/LoginPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/params.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/params.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobile/BaseAndroidTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobile/BaseAndroidTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mobile/Tester.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mobile/Tester.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseAndroidTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseAndroidTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mobile/BaseAndroidTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -128,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginBO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginBO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/businessObjects/LoginBO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="323">
               <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -512,6 +505,14 @@
       <option name="presentableId" value="Default" />
       <updated>1545826986351</updated>
     </task>
+    <task id="LOCAL-00001" summary="login added">
+      <created>1547566108865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547566108865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -548,6 +549,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,10 +562,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5072626" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.32960895" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -580,6 +582,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login added" />
+    <option name="LAST_COMMIT_MESSAGE" value="login added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -982,18 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/businessObjects/LoginBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mobile/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1014,6 +1008,18 @@
             <element signature="imports" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/businessObjects/LoginBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
           </folding>
         </state>
       </provider>
