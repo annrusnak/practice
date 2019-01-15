@@ -1,12 +1,19 @@
 package pageObjects.androidPageObjects;
 
 import driver.DriverSettings;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class BaseAndroidPO {
-    public BaseAndroidPO() {
+class BaseAndroidPO {
+    BaseAndroidPO() {
         PageFactory.initElements(DriverSettings.getAndroidDriver(), this);
     }
+    final static Logger log = Logger.getLogger(BaseAndroidPO.class);
+
+
+
+
+
 
 }

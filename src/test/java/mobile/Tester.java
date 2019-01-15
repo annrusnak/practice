@@ -1,16 +1,14 @@
 package mobile;
 
-import org.apache.log4j.Logger;
 import org.testng.annotations.Test;
+import utils.CSVReader;
 
 public class Tester extends BaseAndroidTest {
 
-    private final static Logger log = Logger.getLogger(Tester.class);
 
     @Test
     public void test() {
-        loginPO.act_clickGetStartedBtn();
-        log.info("Success!");
+        loginBO.act_login(CSVReader.read("userEmail"),CSVReader.read("userPassword"));
     }
 }
 

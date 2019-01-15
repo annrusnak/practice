@@ -1,17 +1,17 @@
 package mobile;
 
+import businessObjects.LoginBO;
 import driver.DriverSettings;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import pageObjects.androidPageObjects.LoginPO;
 
 public class BaseAndroidTest {
 
-    LoginPO loginPO;
+    LoginBO loginBO;
 
     @BeforeTest
     public void initDriver() {
-        loginPO = new LoginPO();
+        loginBO = new LoginBO();
     }
 
     @AfterTest

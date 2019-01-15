@@ -1,5 +1,0 @@
-pageObjects\androidPageObjects\BaseAndroidPO.class
-utils\CSVReader.class
-driver\DriverSettings.class
-pageObjects\androidPageObjects\LoginPO.class
-driver\CapabilitiesSettings.class
